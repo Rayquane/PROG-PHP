@@ -39,9 +39,9 @@ class Article {
 }
 
 
-//Définition de la classe Ordinateur
+//Définition de la classe PC
 
-class Ordinateur extends Article {
+class PC extends Article {
 
 //Attributs
 	private $freqproc;
@@ -70,7 +70,7 @@ public function toHTML() {
 	parent:: toHTML()."<td>".$this->freqproc."</td><td>".$this->ram."</td><td>";
 }
 
-} //Fin de la classe Ordinateur
+} //Fin de la classe PC
 
 class Imprimante extends Article {
 
