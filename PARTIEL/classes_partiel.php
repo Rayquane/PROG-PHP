@@ -133,3 +133,10 @@ class Imprimante extends Article {
 			echo "<td>".$this->nbreart."</td><td>".$this->prixlot."</td>";
 		}
 		} //Fin de la classe Lot
+		
+		private function afficher() {
+			$this->num . '<br/>';
+			$this->nom . '<br/>';
+			$this->prenom . '<br/>';
+			$this->entreprise->nom . '<br/>';
+		}
